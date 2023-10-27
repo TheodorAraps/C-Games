@@ -1,0 +1,9 @@
+﻿  TimberMain.cpp
+c:\users\theodore\desktop\c++ games\timber\timber\timbermain.cpp(96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\theodore\desktop\c++ games\timber\timber\timbermain.cpp(293): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\theodore\desktop\c++ games\timber\timber\timbermain.cpp(329): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\theodore\desktop\c++ games\timber\timber\timbermain.cpp(405): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\theodore\desktop\c++ games\timber\timber\timbermain.cpp(409): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\theodore\desktop\c++ games\timber\timber\timbermain.cpp(442): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\theodore\desktop\c++ games\timber\timber\timbermain.cpp(485): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Timber.vcxproj -> C:\Users\Theodore\Desktop\C++ Games\Timber\Debug\Timber.exe
