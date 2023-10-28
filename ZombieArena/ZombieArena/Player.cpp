@@ -127,7 +127,7 @@ void Player::stopUp()
 
 void Player::stopDown()
 {
-	__downPressed = false;__playerTileSize
+	__downPressed = false;
 }
 
 void Player::update(float elapsedTime, Vector2i mousePosition)
