@@ -536,6 +536,7 @@ int main()
 				if (zombies[i].isAlive())
 				{
 					zombies[i].update(dt.asSeconds(), playerPosition);
+
 				}
 			}
 
@@ -764,6 +765,7 @@ int main()
 		window.display();
 
 	}// End game loop
+
 
 	return 0;
 }

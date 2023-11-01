@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "zombie.h"
 #include "TextureHolder.h"
 #include <cstdlib>
