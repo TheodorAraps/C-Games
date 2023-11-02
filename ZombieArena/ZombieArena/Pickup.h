@@ -35,7 +35,7 @@ private:
 	// Public prototypes go here
 public:
 
-	Pickup::Pickup(int type);
+	Pickup(int type);
 
 	// Prepare a new pickup
 	void setArena(IntRect arena);

@@ -25,8 +25,7 @@ int main()
 	resolution.x = VideoMode::getDesktopMode().width;
 	resolution.y = VideoMode::getDesktopMode().height;
 
-	RenderWindow window(VideoMode(resolution.x, resolution.y),
-		"Zombie Arena", Style::Fullscreen);
+	RenderWindow window(VideoMode(resolution.x, resolution.y), "Zombie Arena", Style::Fullscreen);
 
 	// Create a an SFML View for the main action
 	View mainView(FloatRect(0, 0, resolution.x, resolution.y));
@@ -596,8 +595,7 @@ int main()
 			// Have any zombies touched the player			
 			for (int i = 0; i < numZombies; i++)
 			{
-				if (player.getPosition().intersects
-				(zombies[i].getPosition()) && zombies[i].isAlive())
+				if (player.getPosition().intersects(zombies[i].getPosition()) && zombies[i].isAlive())
 				{
 
 					if (player.hit(gameTimeTotal))
