@@ -32,9 +32,9 @@ sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-network-d.lib;sfml-
 ## Screenshots
 
 <div style="display: flex; align-items: flex-start;">
-  <img src="./Screenshots/screenshot1.png" height="200">
-  <img src="./Screenshots/screenshot2.png" height="200">
-  <img src="./Screenshots/screenshot3.png" height="200">
+  <img src="./Timber/Screenshots/screenshot1.png" height="200">
+  <img src="./Timber/Screenshots/screenshot2.png" height="200">
+  <img src="./Timber/Screenshots/screenshot3.png" height="200">
 </div>
 
 ## Demo for Windows
