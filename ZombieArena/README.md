@@ -1,18 +1,18 @@
 # Zombie Arena
-The Zombie Arena game, which is based on ideas and concepts from [*"Beginning C++ Game Programming" by John Horton*](https://www.packtpub.com/product/beginning-c-game-programming-second-edition/9781838648572).
+Survive as many waves of Zombies as possible by shooting them down. Be carefull not to be touched by them or else you are gonna become a zombie yourself!
 
 ## Requirements
-- C++14
+- C++
 - SFML (x32 version)
 
 ## Install Game
-- Open Terminal and change the current working directory to the location where you want the cloned directory to be made.
-- Download the repository using the [instruction](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+- Using the terminal, navigate to a local directory that you want to clone this game directory into.
+- Clone the repository by following these instructions [instruction](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
-### How to build in Visual Studio
-Before this project will work you'll need to install the [SFML graphics library](https://www.sfml-dev.org/). 
+### building in Visual Studio
+First and foremost you have to install the [SFML graphics library](https://www.sfml-dev.org/). 
 
-Steps can be found [here](https://www.sfml-dev.org/tutorials/2.5/#getting-started).
+Detailed steps can be found [here](https://www.sfml-dev.org/tutorials/2.5/#getting-started).
 
 After opening the project, go to **"Project -> Properties..."**:
 - Select **"All configurations"** in **"Configuration"** section;
@@ -24,29 +24,29 @@ After opening the project, go to **"Project -> Properties..."**:
 sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-network-d.lib;sfml-audio-d.lib;
 ```
 
-## Gameplay
-- `Enter` for start or pause the game.
-- Move using `W`, `A`, `S`, `D`.
+## HotKeys
+- `Enter` Start or pause the game.
+- Movement `W`, `A`, `S`, `D`.
 - Look around using mouse.
-- Left mouse button for a shot from a gun.
-- Collect items (Health, Ammo). Level up.
-- `R` for reload a weapon.
-- `Num1` / `Num2` / `Num3` / `Num4` / `Num5` / `Num6` for level up the player at the start of each level
+- Left mouse button for shooting.
+- Collect items (Health, Ammo) by walking over them. Level up.
+- `R` Reload weapon.
+- `Num1` / `Num2` / `Num3` / `Num4` / `Num5` / `Num6` Choose A power up up for the player at the start of each level
 - Fight through Zombie waves.
 - Beat your high-score.
-- `Esc` for exit from the game.
+- `Esc` Exit the game.
 
 
 ## Screenshots
 
 <div style="display: flex; align-items: flex-start;">
-  <img src="./screenshots/Screenshot1.png" height="200">
-  <img src="./screenshots/Screenshot2.png" height="200">
-  <img src="./screenshots/Screenshot3.png" height="200">
-  <img src="./screenshots/Screenshot4.png" height="200">
-  <img src="./screenshots/Screenshot5.png" height="200">
-  <img src="./screenshots/Screenshot6.png" height="200">
+  <img src="./ZombieArena/screenshots/Screenshot1.png" height="200">
+  <img src="./ZombieArena/screenshots/Screenshot2.png" height="200">
+  <img src="./ZombieArena/screenshots/Screenshot3.png" height="200">
+  <img src="./ZombieArena/screenshots/Screenshot4.png" height="200">
+  <img src="./ZombieArena/screenshots/Screenshot5.png" height="200">
+  <img src="./ZombieArena/screenshots/Screenshot6.png" height="200">
 </div>
 
 ## Demo for Windows
-Run the included **zombie-arena.exe** file to play.
+You can find an executable for windows inside the Debug directory. Have fun!
