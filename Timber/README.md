@@ -1,18 +1,18 @@
 # Timber
-The Timberman 2D game clone, which is based on ideas and concepts from [*"Beginning C++ Game Programming" by John Horton*](https://www.packtpub.com/product/beginning-c-game-programming-second-edition/9781838648572).
+Chop wood as fast as you can, moving left and right avoiding branches, until the time runs out!!
 
 ## Requirements
-- C++14
+- C++
 - SFML (x32 version)
 
 ## Install Game
-- Open Terminal and change the current working directory to the location where you want the cloned directory to be made.
-- Download the repository using the [instruction](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+- Using the terminal, navigate to a local directory that you want to clone this game directory into.
+- Clone the repository by following these instructions [instruction](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
-### How to build in Visual Studio
-Before this project will work you'll need to install the [SFML graphics library](https://www.sfml-dev.org/). 
+### building in Visual Studio
+First and foremost you have to install the [SFML graphics library](https://www.sfml-dev.org/). 
 
-Steps can be found [here](https://www.sfml-dev.org/tutorials/2.5/#getting-started).
+Detailed steps can be found [here](https://www.sfml-dev.org/tutorials/2.5/#getting-started).
 
 After opening the project, go to **"Project -> Properties..."**:
 - Select **"All configurations"** in **"Configuration"** section;
@@ -25,9 +25,9 @@ sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-network-d.lib;sfml-
 ```
 
 ## Hotkeys
-- `Esc` for exit from the game
-- `Enter` for start the game
-- `Right arrow` / `Left arrow` for making a cut of a tree from an appropriate side
+- `Esc` Exit the game
+- `Enter` Start the game
+- `Right arrow` / `Left arrow` Chop a piece of the tree from the respective side
 
 ## Screenshots
 
@@ -38,10 +38,4 @@ sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-network-d.lib;sfml-
 </div>
 
 ## Demo for Windows
-Once downloaded find and just run the included **Timber.exe** file to play. Enjoy!
-
-## Things to do
-
--   [x] Add more trees to background
--   [ ] Improve the visability of the HUD text
--   [ ] Make the cloud code more efficient
+You can find an executable for windows inside the Debug directory. Have fun!
