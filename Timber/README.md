@@ -27,7 +27,7 @@ sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-network-d.lib;sfml-
 ## Hotkeys
 - `Esc` Exit the game
 - `Enter` Start the game
-- `Right arrow` / `Left arrow` Chop a piece of the tree from the respective side
+- `Right arrow` / `Left arrow` Chop a piece of wood from the tree from the respective side
 
 ## Screenshots
 
